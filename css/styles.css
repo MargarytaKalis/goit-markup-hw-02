@@ -17,12 +17,17 @@ a {
 
 }
 
+button {
+    cursor: pointer;
+}
+
 
 
 .logo {
-font-weight: 700;
+font-family: "Raleway", sans-serif;
+
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -36,5 +41,156 @@ font-weight: 700;
     color: #f4f4fd;
 }
 
+.nav-link {
+       
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
 
 
+.nav-link:hover, 
+.nav-link:focus 
+.contacts-link:hover,
+.contacts-link:focus {
+color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
+.section-hero {
+    background-color: #2e2f42;;
+}
+
+
+.title {
+
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+
+.hero-button {
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    
+    
+}
+
+.hero-button:hover,
+.hero-button:focus {
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;;
+}
+
+.benefits-title {
+
+
+      
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.benefits-paragraph {
+      
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.section-team {
+    background-color: #f4f4fd;;
+}
+
+.team-title {
+
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.team-item h3 {
+   
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team-item 
+{
+        background-color: #fff;
+}
+
+.team-item p {
+ 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.portfolio-title {
+   
+       
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-item h3 {
+
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.portfolio-item {
+    background-color: #fff;
+}
+
+.portfolio-item p {
+  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer {
+    background-color: #2e2f42;;
+}
+
+.footer p {
+     
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
